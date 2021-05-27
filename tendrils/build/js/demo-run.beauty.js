@@ -1,4 +1,6 @@
-! function(e, t) {
+function init() {
+
+! function (e, t) {
     "object" == typeof exports && "object" == typeof module ? module.exports = t() : "function" == typeof define && define.amd ? define([], t) : "object" == typeof exports ? exports.Tendrils = t() : e.Tendrils = t()
 }(this, function() {
     return function(e) {
@@ -15875,4 +15877,9 @@
         i()
     }])
 });
-//# sourceMappingURL=demo-run.js.map
+}
+init();
+
+setInterval(() => {
+    init();
+}, 60 * 1000 * 5);
