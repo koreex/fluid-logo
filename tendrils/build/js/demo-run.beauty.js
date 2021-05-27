@@ -907,9 +907,9 @@
                             varyTarget: 1,
                             lineWidth: 1
                         },
-                        baseColor: [0, 0, 0, .9],
-                        flowColor: [1, 1, 1, .1],
-                        fadeColor: [1, 1, 1, .05],
+                        baseColor: [0.8, 0.2, 0, .9],  // HERE!
+                        flowColor: [1, 1, 0, .1],
+                        fadeColor: [0.2, 0, 0.1, .05],
                         spawn: {
                             radius: .6,
                             speed: .1
@@ -995,6 +995,7 @@
                     Rt = function(e) {
                         return e.stopPropagation()
                     };
+                    St.style.display = 'none';  // hide controls
                 Tt.main.domElement.addEventListener("keydown", Rt), Tt.main.domElement.addEventListener("keyup", Rt), Tt.toggle && Tt.toggle.addEventListener("click", function() {
                     return S()
                 });

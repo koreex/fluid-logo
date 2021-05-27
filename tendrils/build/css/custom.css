@@ -1,0 +1,45 @@
+.custom-logo {
+    z-index: 1000;
+    pointer-events: none;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.custom-text {
+    z-index: 1000;
+    pointer-events: none;
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 42px;
+    width: 100%;
+}
+
+.custom-social {
+    z-index: 1000;
+    pointer-events: none;
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 42px;
+    width: 100%;
+}
+
+.custom-social i {
+    padding: 1em;
+}
+
